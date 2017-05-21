@@ -1,6 +1,6 @@
 package net.kkmike.app.model;
 
-import net.kkmike.app.SharedPrefCase;
+import net.kkmike.sptest.SharedPrefCase;
 
 import org.junit.Assert;
 import org.junit.Before;
