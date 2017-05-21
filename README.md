@@ -1,0 +1,2 @@
+# SPTestFramework
+Android SharedPreferences单元测试框架
