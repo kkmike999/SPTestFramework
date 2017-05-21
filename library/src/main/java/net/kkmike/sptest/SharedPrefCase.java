@@ -1,4 +1,4 @@
-package net.kkmike.app;
+package net.kkmike.sptest;
 
 import android.content.Context;
 import android.content.SharedPreferences;

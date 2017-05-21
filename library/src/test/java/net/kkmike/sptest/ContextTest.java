@@ -1,7 +1,10 @@
-package net.kkmike.app;
+package net.kkmike.sptest;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+
+import net.kkmike.sptest.ShadowSharedPreference;
+import net.kkmike.sptest.SharedPrefCase;
 
 import org.junit.Assert;
 import org.junit.Before;

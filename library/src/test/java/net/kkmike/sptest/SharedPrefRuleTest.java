@@ -1,6 +1,8 @@
-package net.kkmike.app;
+package net.kkmike.sptest;
 
 import android.content.Context;
+
+import net.kkmike.sptest.SharedPrefRule;
 
 import org.junit.Assert;
 import org.junit.Rule;

@@ -1,7 +1,9 @@
-package net.kkmike.app;
+package net.kkmike.sptest;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
+
+import net.kkmike.sptest.SharedPreferencesHelper;
 
 import org.junit.Assert;
 import org.junit.Before;
