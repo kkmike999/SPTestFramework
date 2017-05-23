@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -25,4 +26,13 @@ dependencies {
 
 //    compile group: 'org.mockito', name: 'mockito-all', version: '2.0.2-beta'
     compile group: 'org.mockito', name: 'mockito-core', version: '2.8.9'
+}
+
+publish {
+    userOrg = 'kkmike999'      //bintray注册的用户名
+    groupId = 'net.kkmike.sptest'         //compile引用时的第1部分groupId
+    artifactId = 'sptest'     //compile引用时的第2部分项目名
+    publishVersion = '0.5'    //compile引用时的第3部分版本号
+    desc = 'SPTestFramework是一款简洁的SharePreference单元测试框架。'
+    website = 'https://github.com/kkmike999/SPTestFramework'
 }
