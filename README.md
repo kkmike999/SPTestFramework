@@ -22,7 +22,7 @@ allprojects {
 
 ```
 dependencies {
-    compile group: 'org.mockito', name: 'mockito-core', version: '2.8.9'
+    compile 'org.mockito:mockito-all:2.0.2-beta'
     compile 'junit:junit:4.12'
     
     testCompile('net.kkmike.sptest:sptest:0.5') {
