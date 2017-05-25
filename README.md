@@ -20,7 +20,16 @@ allprojects {
 
 ```
 dependencies {
-    testCompile 'net.kkmike.sptest:sptest:0.5'
+    compile group: 'org.mockito', name: 'mockito-core', version: '2.8.9'
+    compile 'junit:junit:4.12'
+    
+    testCompile('net.kkmike.sptest:sptest:0.5') {
+        transitive = true
+        exclude module: 'junit', group: 'junit'
+        exclude module: 'mockito-all', group: 'org.mockito'
+        exclude module: 'mockito-core', group: 'org.mockito'
+        exclude module: 'support-annotations', group: 'com.android.support'
+    }
 }
 ```
 
