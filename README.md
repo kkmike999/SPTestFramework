@@ -11,7 +11,9 @@ SPTestFramework是一款简洁的Android SharedPreferences单元测试框架。
 allprojects {
     repositories {
         jcenter()
-        maven { url 'https://dl.bintray.com/kkmike999/maven' }
+        
+        // 目前0.5版本已发布jcenter，可以不加bintray url
+        // maven { url 'https://dl.bintray.com/kkmike999/maven' }
     }
 }
 ```
