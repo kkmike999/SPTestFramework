@@ -32,5 +32,4 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
 
     testCompile project(':library')
-//    testCompile 'com.github.kkmike999:SPTestFramework:ea5db70d23'
 }
